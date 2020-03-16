@@ -111,3 +111,15 @@
     z-index: 500;
     object-fit: cover;
   }
+
+  /* mobile */
+  @media screen and (max-width: 1025px) {
+      .mainpane, .blacklayer, .colorlayer {
+          min-height: 100%;
+          background-size: contain;
+          width: 100%;
+      }
+      .bg1, .bg2, .bg3, .bg4 {
+          background-size: contain;
+      }
+  }

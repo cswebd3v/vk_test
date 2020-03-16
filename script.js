@@ -1,4 +1,4 @@
-const backChange = setInterval(colorChange, 5000);
+const backChange = setInterval(colorChange, 4000);
 
 function handleClick() {
     $('main').on('click', '.click1', function(event) {
