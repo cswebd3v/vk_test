@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  main {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: url(./images//fullback.png);
+    background-size: cover;
+  }
+  
+  .mainpane {
+    height: 100%;
+    z-index: 499;
+    float: left;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .colorlayer {
+      height: 100%;
+      width: 100%;
+      background: url(./images/mainback6.png);
+      background-size: contain;
+  }
+
+  .blacklayer {
+      height: 100%;
+      float: left;
+      width: 68%;
+      background-color: black;
+  }
+
+
+  .rightpane-wrapper {
+      height: 100%;
+      float: right;
+      width: 32%;
+  }
+
+  .rightpane1 {
+      height: 100%;
+      float: left;
+      width: 49.5%;
+  }
+  .rightpane2 {
+      height: 100%;
+      float: right;
+      width: 50.5%;
+      position: relative;
+      right: 3px;
+  }
+
+  .rightpane1:hover, .rightpane2:hover {
+    box-shadow: inset 0 4px 8px 0 #ffffff, inset 0 6px 20px 0 #ffffff;
+  }
+
+  /* logo styles */
+  .logo-wrapper {
+      z-index: 9999;
+  }
+  #logo {
+      width: 25%;
+      height: 5%;
+      position: fixed;
+      top: 40px;
+      left: 40px;
+      z-index: 9999;
+  }
+  #logo:hover {
+      filter: invert(100%);
+  }
+
+  /* background changer */
+  .hidden {
+      display: none;
+  }
+
+  .bg1 {
+    background: url(./images/mainback1.png);
+    background-size: contain;
+  }
+  .bg2 {
+    background: url(./images/mainback2.jpg);
+    background-size: contain;
+  }
+  .bg3 {
+    background: url(./images/mainback3.png);
+    background-size: contain;
+  }
+  .bg4 {
+    background: url(./images/mainback4.jpg);
+    background-size: contain;
+  }
+
+  /* color changer */
+  .colorchange {
+    height: 100%;
+    width: 100%;
+    z-index: 500;
+    object-fit: cover;
+  }
